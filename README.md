@@ -18,10 +18,21 @@ To address this issue, we firstly utilize a pre-season attendance prediction mod
 
 ## Project Deliverables
 We integrate data from multiple sources and build features that can be grouped into 3 buckets: Team performance, player and calendar, see the code folder for details. Based on the features, we deliver the following models and results.
-### Temporal Fusion Transfomer Model and 2023 Attendance Predictions
-
-### In-Season Attendance Prediction Modle (LightGBM)
+### Temporal Fusion Transfomer(TFT) Model and 2023 Attendance Predictions
+We use Temporal Fusion Transfomer for long-term attendance prediction since the model has advantages as:
+* Capable of processing multiple heterogeneous time series data simultaneously.
+* Takes into account the impact of all historical data when forecasting time series, resulting in more accurate predictions.
+* Achieves high performance across multi-horizon forecasting, providing accurate predictions across different time horizons.
+### LightGBM Model for in-Season Attendance Prediction
+We use LightGBM for its characteristics:
+* Capable of efficiently processing a large number of features and automatically generating feature importance, allowing businesses to gain insights into the most important factors affecting their predictions.
+* Fast training speed allows for quick iteration and retraining of the model when new data is received, making it a flexible and adaptable tool for short-term time series forecasting
 ### Feature Importance, Partial Dependence Plot and intepretation
+The deliverables are:
+* Feature importance score from the LightGBM model to select important factors
+* Partial Dependence Plot(PDP) to show the relationship between attendance and the factors
+* Selected teams based on clustering results and detailed analysis towards across teams differences
+* Recommendations to optimize game schedule, marketing timing and marketing content
 
 
 
