@@ -19,6 +19,8 @@ To address this issue, we firstly utilize a pre-season attendance prediction mod
 ## Project Deliverables
 We integrate data from multiple sources and build features that can be grouped into 3 buckets: Team performance, player and calendar, see the code folder for details. Based on the features, we deliver the following models and results.
 ### Temporal Fusion Transfomer(TFT) Model and 2023 Attendance Predictions
+
+**TFT Structure**
 ![image](https://media.github.umn.edu/user/19808/files/ef4a80cc-7ded-478e-8045-92fa82abf239)
 We use Temporal Fusion Transfomer for long-term attendance prediction since the model has advantages as:
 * Capable of processing multiple heterogeneous time series data simultaneously.
@@ -42,7 +44,7 @@ The deliverables are:
 * Recommendations to optimize game schedule, marketing timing and marketing content
 #### Overall Feature Importance
 ![image](https://media.github.umn.edu/user/19808/files/34a6d299-bf96-487a-bd66-14aa117f86d5)
-**Important Factor #1: Day of Week**
+#### Important Factor #1: Day of Week
 ![image](https://media.github.umn.edu/user/19808/files/d019d0dd-89e9-488d-8cdc-111ec40fa1f5)
 
 
