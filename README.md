@@ -17,5 +17,5 @@ See the [contributors](https://github.umn.edu/liao0150/MinneMUDAC-2023-predict-M
 ![image](https://media.github.umn.edu/user/19808/files/686fc054-ffaf-452d-b2b3-a7ef1c053cc4)
 
 * Code: 
-* Deck: 
+* [Deck](https://github.umn.edu/liao0150/MinneMUDAC-2023-predict-MLB-attendance/tree/main/presentation)
 * [Presentation video](https://www.youtube.com/watch?v=OOTj8_1UaQA)
