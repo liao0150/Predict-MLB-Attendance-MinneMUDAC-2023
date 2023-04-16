@@ -22,6 +22,7 @@ We integrate data from multiple sources and build features that can be grouped i
 
 **TFT Structure**
 ![image](https://media.github.umn.edu/user/19808/files/ef4a80cc-7ded-478e-8045-92fa82abf239)
+
 We use Temporal Fusion Transfomer for long-term attendance prediction since the model has advantages as:
 * Capable of processing multiple heterogeneous time series data simultaneously.
 * Takes into account the impact of all historical data when forecasting time series, resulting in more accurate predictions.
