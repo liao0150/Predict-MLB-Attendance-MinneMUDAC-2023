@@ -37,6 +37,6 @@ The deliverables are:
 
 
 ## Links
-* Code: 
+* [Code](https://github.umn.edu/liao0150/MinneMUDAC-2023-predict-MLB-attendance/tree/main/code)
 * [Deck](https://github.umn.edu/liao0150/MinneMUDAC-2023-predict-MLB-attendance/tree/main/presentation)
 * [Presentation video](https://www.youtube.com/watch?v=OOTj8_1UaQA)
